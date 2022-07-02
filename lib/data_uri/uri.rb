@@ -61,6 +61,6 @@ module URI
     end
   end
 
-  @@schemes['DATA'] = Data
+  register_scheme 'DATA', Data
 
 end
